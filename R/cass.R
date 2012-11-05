@@ -11,7 +11,7 @@ RC.use <- function(conn, keyspace, cache.def = TRUE) {
   invisible(res)
 }    
 
-RC.get <- function(conn, c.family, key, c.name, comparator=NULL, validator=NULL) .Call("RC_get", conn, key, c.family, c.name, comparator, validator, PACKAGE="RCassandra")
+RC.get <- function(conn, c.family, key, c.names, comparator=NULL, validator=NULL) .Call("RC_get_list", conn, key, c.family, c.names, length(c.names), 0, comparator, validator, PACKAGE="RCassandra")
 
 .current.comparator <- function(c.family) {
   if(!is.null(ks <- .keyspace.cache[["*current keyspace*"]])) {
@@ -49,7 +49,7 @@ RC.version <- function(conn) .Call("RC_version", conn, PACKAGE="RCassandra")
 
 RC.login <- function(conn, username="default", password="") .Call("RC_login", conn, username, password, PACKAGE="RCassandra")
 
-RC.write.table <- function(conn, c.family, df) .Call("RC_write_table", conn, df, row.names(df), names(df))
+RC.write.table <- function(conn, c.family, df) .Call("RC_write_table", conn, c.family, df, row.names(df), names(df), PACKAGE="RCassandra")
 
 RC.read.table <- function(conn, c.family, convert = TRUE, na.strings = "NA", as.is = FALSE, dec = ".") {
   df <- RC.get.range.slices(conn, c.family, fixed=TRUE)
