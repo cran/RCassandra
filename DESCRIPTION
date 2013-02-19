@@ -1,5 +1,5 @@
 Package: RCassandra
-Version: 0.1-1
+Version: 0.1-2
 Title: R/Cassandra interface
 Author: Simon Urbanek <simon.urbanek@r-project.org>
 Maintainer: Simon Urbanek <simon.urbanek@r-project.org>
@@ -8,6 +8,7 @@ Description: This packages provides a direct interface (without the use
         such as login, updates and queries.
 License: GPL-2
 URL: http://www.rforge.net/RCassandra
-Packaged: 2012-11-05 18:15:27 UTC; svnuser
+Packaged: 2013-02-19 22:53:53 UTC; svnuser
+NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2012-11-05 19:46:57
+Date/Publication: 2013-02-20 07:45:21
