@@ -1,4 +1,4 @@
-c13ed1d23d9ea369f602289ae337f4de *DESCRIPTION
+c110dbd12071e0f58da2275b16fb780d *DESCRIPTION
 254e7dce5f3b10fd873ec78bfd9940e7 *NAMESPACE
 d7807c7e2bbaa3bbec4226bbb8f66870 *NEWS
 99f141d351dc241b7e7194ad6917d044 *R/cass.R
@@ -9,4 +9,4 @@ d74c65b013ef5a94302c4309578d08d9 *man/RC.insert.Rd
 7ad56ee6b903c3355318b3e8d7e4af7b *man/RC.read.table.Rd
 2cd87750326a7aedf0c5c9e111608364 *man/RCassandra.Rd
 2d87b233b1a5b83d07748759fa4ced16 *src/Makevars.win
-d6f9df1deaabc8007802d71c0de1b0ab *src/cass.c
+640fbb6941cbdb3090aee3394b793cd0 *src/cass.c
