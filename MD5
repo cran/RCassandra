@@ -1,12 +1,12 @@
-c110dbd12071e0f58da2275b16fb780d *DESCRIPTION
+31023038d89a73fc90783169560f4df9 *DESCRIPTION
 254e7dce5f3b10fd873ec78bfd9940e7 *NAMESPACE
-d7807c7e2bbaa3bbec4226bbb8f66870 *NEWS
+784441adf2d0d6bcd05374ce62841c17 *NEWS
 99f141d351dc241b7e7194ad6917d044 *R/cass.R
 77337c2052493e3e779c941ed61aefb4 *man/RC.cluster.name.Rd
 1c864eefb8fd955be481450bcb8d2f92 *man/RC.connect.Rd
 70871034c211aa415857c05697630027 *man/RC.get.Rd
-d74c65b013ef5a94302c4309578d08d9 *man/RC.insert.Rd
+29aef22a04fc62f29633f4ac1eb91528 *man/RC.insert.Rd
 7ad56ee6b903c3355318b3e8d7e4af7b *man/RC.read.table.Rd
 2cd87750326a7aedf0c5c9e111608364 *man/RCassandra.Rd
 2d87b233b1a5b83d07748759fa4ced16 *src/Makevars.win
-640fbb6941cbdb3090aee3394b793cd0 *src/cass.c
+8bbeb5e0bfffc0f2db0b6a6d5feadd49 *src/cass.c
